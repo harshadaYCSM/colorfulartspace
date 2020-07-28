@@ -7,6 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: inline;
 }
 
 code {
@@ -16,4 +17,25 @@ code {
 
 img {
   max-width:200px;
+  display: inline-block;
 }
+
+.artPost {
+  display: inline-block;
+  margin:10px;
+  top: 2px;
+  font-family: 'Jua';
+}
+
+.artPost :hover {
+  transform: scale(1.2);
+}
+
+.headerImage {
+  background-image: url('bg.jpg');
+  height: 115px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Sofia';
+}
+

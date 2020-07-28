@@ -1,4 +1,6 @@
 {
-    "1" : "boat.jpg",
-    "2" : "bow.jpg"
+    "1" : {"src" :"boat.jpg",
+            "title": "Miniature Ship"},
+    "2" : {"src" :"bow.jpg",
+        "title": "Bow Arrow"}
 }
