@@ -1,6 +1,7 @@
 {
-    "1" : {"src" :"boat.jpg",
-            "title": "Miniature Ship"},
-    "2" : {"src" :"bow.jpg",
-        "title": "Bow Arrow"}
+        "1" : {"src" :"boat.jpg","title": "Miniature Ship"},
+        "2" : {"src" :"bow.mp4","title": "Bow Arrow", "isVideo": true},
+        "3" : {"src" :"rath.jpg","title": "Miniature Chariott"},
+        "4" : {"src" :"dscn4291.jpg","title": "Miniature Piano"},
+        "5" : {"src" :"eiffel.jpg","title": "Miniature Eiffel"}    
 }

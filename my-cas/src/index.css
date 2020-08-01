@@ -1,12 +1,6 @@
 body {
   background-color: #460c50e8;
   margin: 0;
-  color : white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   display: inline;
 }
 
@@ -15,27 +9,64 @@ code {
     monospace;
 }
 
-img {
-  max-width:200px;
-  display: inline-block;
-}
-
 .artPost {
-  display: inline-block;
-  margin:10px;
+  display: inline-grid;
+  margin:4px;
+  margin-top: 35px;
   top: 2px;
-  font-family: 'Jua';
+  font-family: 'Judson';
+  background-color: antiquewhite;
+  overflow: hidden; /* hide the excess */
 }
 
-.artPost :hover {
-  transform: scale(1.2);
+.artPost img {
+  display: block; /* no whitespace */
+  transition: .3s ease-in-out;
+  max-width:200px;
 }
 
+.artPost:hover img {
+  transform: scale(1.1);
+}
+
+.artPost video {
+  max-width:200px;
+}
+
+.navigationBar {
+  display: -webkit-inline-box;
+  background-color: #525151;
+  height: 35px;
+  width: 100%;
+}
+
+.navigationBar h3 {
+  margin:10px;
+  margin: auto;
+}
+.navigationBar h3:hover {
+  color : #91faff;
+  transform: scale(1.01);
+}
+
+
+.headerTextContainer {
+ color : white;
+ margin: -20px;
+}
+
+.headerTextContainer h1:hover {
+  color : #80d9ec;
+  transform: scale(0.99);
+ }
 .headerImage {
   background-image: url('bg.jpg');
   height: 115px;
   width: 100%;
   text-align: center;
-  font-family: 'Sofia';
-}
+  font-family: 'Love Ya Like A Sister', cursive;}
 
+.feedbackPanel {
+  font-family: 'Cormorant Upright', serif;
+  margin: 14px;
+}
