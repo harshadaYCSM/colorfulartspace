@@ -34,17 +34,22 @@ code {
 }
 
 .navigationBar {
-  display: -webkit-inline-box;
+  display: inline-flex;
   background-color: #525151;
   height: 35px;
   width: 100%;
 }
 
-.navigationBar h3 {
+a {
   margin:10px;
   margin: auto;
 }
-.navigationBar h3:hover {
+a h3 {
+  margin:10px;
+  margin: auto;
+  color : white;
+}
+a h3:hover {
   color : #91faff;
   transform: scale(1.01);
 }

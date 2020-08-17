@@ -10,6 +10,10 @@ import {
   PinterestIcon,
   FacebookMessengerIcon,
 } from "react-share";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Home from './home'
+import Contact from './contact'
+import About from './about'
 
 class ArtPost extends React.Component {
   constructor() {
@@ -52,6 +56,27 @@ class FeedbackPanel extends React.Component {
   }
 }
 
+
+
+class NavigationBar extends React.Component {
+
+  render() {
+    return (
+      <div class="navigationBar">
+                <Router>
+                <Link to="/"><h3>Home</h3></Link>    
+                <Link to="/"><h3>Contact</h3></Link>
+                <Link to="/"><h3>About</h3></Link>
+                <Link to="/"><h3>Categories</h3></Link>   
+                <Route path="/home" exact component={Home} />
+                <Route path="/about" component={About} />
+                <Route path="/contact" component={Contact} />
+        </Router>
+      </div>
+    )
+  }
+}
+
 class PostsContainer extends React.Component {
   constructor() {
     super();
@@ -81,24 +106,13 @@ class PostsContainer extends React.Component {
       <h2>by Harshada</h2>
       <NavigationBar />
       </div>
+      <div id="actualPostDiv">
       {this.renderPosts()}
+      </div>
     </div>)
   }
 } 
 
-class NavigationBar extends React.Component {
-
-  render() {
-    return (
-      <div class="navigationBar">
-        <h3>Home</h3>
-        <h3>Contact</h3>
-        <h3>About</h3>
-        <h3>Categories</h3>
-      </div>
-    )
-  }
-}
 const bodyContainer = (
   <div> 
     <PostsContainer />

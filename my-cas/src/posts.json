@@ -3,5 +3,9 @@
         "2" : {"src" :"bow.mp4","title": "Bow Arrow", "isVideo": true},
         "3" : {"src" :"rath.jpg","title": "Miniature Chariott"},
         "4" : {"src" :"dscn4291.jpg","title": "Miniature Piano"},
-        "5" : {"src" :"eiffel.jpg","title": "Miniature Eiffel"}    
+        "5" : {"src" :"eiffel.jpg","title": "Miniature Eiffel"},
+        "6" : {"src" : "beach.jpg", "title" : "Beach Break"},
+        "7" : {"src" :"vitthal.jpg","title": "Vithoba Splash Painting"},
+        "8" : {"src" :"thinkbadge.jpg","title": "Think Different Badge"},
+        "9" : {"src" :"varkala.jpg","title": "Varkala Badge"}
 }
