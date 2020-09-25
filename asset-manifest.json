@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/colorfulartspace/static/css/main.f09e4dba.chunk.css",
+    "main.js": "/colorfulartspace/static/js/main.316fce19.chunk.js",
+    "main.js.map": "/colorfulartspace/static/js/main.316fce19.chunk.js.map",
+    "runtime-main.js": "/colorfulartspace/static/js/runtime-main.0d0fe509.js",
+    "runtime-main.js.map": "/colorfulartspace/static/js/runtime-main.0d0fe509.js.map",
+    "static/js/2.80913c74.chunk.js": "/colorfulartspace/static/js/2.80913c74.chunk.js",
+    "static/js/2.80913c74.chunk.js.map": "/colorfulartspace/static/js/2.80913c74.chunk.js.map",
+    "index.html": "/colorfulartspace/index.html",
+    "precache-manifest.94fad49b9a5563d0b85b38e016111db0.js": "/colorfulartspace/precache-manifest.94fad49b9a5563d0b85b38e016111db0.js",
+    "service-worker.js": "/colorfulartspace/service-worker.js",
+    "static/css/main.f09e4dba.chunk.css.map": "/colorfulartspace/static/css/main.f09e4dba.chunk.css.map",
+    "static/js/2.80913c74.chunk.js.LICENSE.txt": "/colorfulartspace/static/js/2.80913c74.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/colorfulartspace/static/media/bg.d19870db.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d0fe509.js",
+    "static/js/2.80913c74.chunk.js",
+    "static/css/main.f09e4dba.chunk.css",
+    "static/js/main.316fce19.chunk.js"
+  ]
+}
