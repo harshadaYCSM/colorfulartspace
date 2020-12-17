@@ -1,4 +1,4 @@
-# colorfulartspace
+# Colorful Art Space 
 My art and craft blog in ReactJS
 
 Live Demo: 
